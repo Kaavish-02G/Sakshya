@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+
+.vscode/
+
+uploads/
+evidence/
+suspicious_frames/
+
+*.mp4
+*.wav
+*.mp3
+*.jpg
+*.jpeg
+*.png
+
+.env
