@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { @apply border-slate-200; }
+  html { scroll-behavior: smooth; }
+  body { @apply m-0 min-w-[320px] font-sans antialiased; }
+  button, input, select { font: inherit; }
+}
+
+.font-serif { font-family: 'DM Serif Display', Georgia, serif; }

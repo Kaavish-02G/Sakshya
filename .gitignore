@@ -1,0 +1,12 @@
+# Dependencies and generated frontend output
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Local configuration and any future backend uploads/keys
+.env
+.env.*
+!.env.example
+uploads/
+*.pem
+*.key
