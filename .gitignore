@@ -1,0 +1,10 @@
+# Experimental datasets and generated images
+experiments/ela/dataset/images/
+experiments/ela/dataset/ela_images/
+experiments/ela/dataset/validation_images/
+experiments/ela/dataset/validation_ela/
+ela_outputs/
+
+# Python cache
+__pycache__/
+*.pyc
